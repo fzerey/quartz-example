@@ -1,0 +1,144 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+build/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore logs
+logs/
+
+# Ignore environment variables file
+.env
+# .NET Core / .NET Standard
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+*.deps.json
+*.runtimeconfig.json
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.vscode/
+*.suo
+*.user
+*.userprefs
+*.log
+*.tlog
+*.jfm
+*.pfx
+*.snk
+*.vssscc
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.opensdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.scc
+*.DotSettings.user
+*.dotCover
+*.dotTrace
+*.dotMemory
+*.builds
+*.pidb
+*.svclog
+*.sln.docstates
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+
+# NuGet
+packages/
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+# TeamCity
+_TeamCity*
+
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject file
+**/*.DocProject
+
+# DocState file
+**/*.DocState
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper Plugin Manager
+_ReSharper*/
+*.rpf
+
+# JustCode
+.JustCode
+
+# TeamCity ReSharper Plugin
+_ReSharper*/TeamCityPlugin*
+
+# DotCover Plugin Data
+*.dcpx
+
+# AxoCover Plugin Result
+*.axoCover/*
+!*.axoCover/settings.json
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NCrunch coverage result files
+*.crunch*.coverage.xml
+*.crunch*.coverage
+
+# Visual Studio test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
