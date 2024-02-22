@@ -19,6 +19,7 @@ var option = Console.ReadLine();
 if (option == "1")
 {
     await ManuelJobTrigger.TriggerJob(scheduler, job);
+    Thread.Sleep(5000);
 }
 else if (option == "2")
 {
